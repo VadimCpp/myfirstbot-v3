@@ -1,0 +1,23 @@
+{
+    "project_name": "Alias Online Bot",
+    "version_log": [
+      {
+        "version": "0.1.0",
+        "date": "2023-10-18",
+        "changes": [
+          "Created Alias Online Bot 'Hello, world!' application.",
+          "Used Node.js, Express, TypeScript, and node-telegram-bot-api as the technology stack.",
+          "Used Heroku and Telegram as the infrastructure stack."
+        ]
+      },
+      {
+        "version": "0.1.1",
+        "date": "2023-10-19",
+        "changes": [
+          "Add mocha and sinon for unit testing.",
+          "Set up code coverage with nyc."
+        ]
+      }
+    ]
+  }
+  
