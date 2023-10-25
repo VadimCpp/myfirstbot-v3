@@ -4,10 +4,10 @@
 
 Technology Stack:
 
-- Infrastructure: Node.js, Express, node-telegram-bot-api
-- Language: TypeScript
-- Deployment: Heroku
-- Unit Tests: Mocha, Sinon, NYC
+- Programming Language: TypeScript
+- Web Application Framework: Node.js, Express
+- Cloud Deployment: Azure or Heroku
+- Testing: Mocha, Sinon, NYC
 
 ## Getting started
 
