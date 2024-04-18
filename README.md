@@ -6,7 +6,7 @@ Technology Stack:
 
 - Programming Language: TypeScript
 - Web Application Framework: Node.js, Express
-- Cloud Deployment: Azure or Heroku
+- Cloud Deployment: Heroku
 - Testing: Mocha, Sinon, NYC
 
 ## Getting started
