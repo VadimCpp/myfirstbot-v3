@@ -31,9 +31,13 @@ class TelegramMessenger {
       // NOTE: Handle events
       // TODO: refactor
       this.bot?.on('message', (msg) => {
-        console.log(' 🤖[telegram]: Handle message')
+        console.log(' 🤖[telegram]: Handle message', JSON.stringify(msg))
         const chatId = msg.chat.id
-        that.bot?.sendMessage(chatId, 'Received your message: ' + msg.text)
+        if (msg.sticker) {
+          that.bot?.sendSticker(chatId, msg.sticker.file_id)
+        } else {
+          that.bot?.sendMessage(chatId, 'Received your message: ' + msg.text)
+        }
       })
     
     } catch (e: any) {
