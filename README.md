@@ -1,4 +1,4 @@
-# myfirstbot-v3
+# myfirstbot
 
 > Yet one Telegram bot boilerplate
 
@@ -35,26 +35,26 @@ Use heroku CLI to create web app:
 
 ```bash
 # Create a new Heroku app with the specified name
-heroku create myfirstbot-v3
+heroku create myfirstbot
 
 # Add a Heroku remote to your local Git repository if not set
 # This will allow you to deploy your app to Heroku
-git remote add heroku https://git.heroku.com/myfirstbot-v3.git
+git remote add heroku https://git.heroku.com/myfirstbot.git
 
 # Set DEBUG env
-heroku config:set DEBUG=false --app=myfirstbot-v3
+heroku config:set DEBUG=false --app=myfirstbot
 
 # Set TELEGRAM_BOT_TOKEN env
-heroku config:set TELEGRAM_BOT_TOKEN=0000011111:ABBBBBBBBBBBBBBBBBB3333333330 --app=myfirstbot-v3
+heroku config:set TELEGRAM_BOT_TOKEN=0000011111:ABBBBBBBBBBBBBBBBBB3333333330 --app=myfirstbot
 
 # Set HEROKU_URL env
-heroku config:set HEROKU_URL=https://myfirstbot-v3.herokuapp.com/ --app=myfirstbot-v3
+heroku config:set HEROKU_URL=https://myfirstbot.herokuapp.com/ --app=myfirstbot
 
 # Deploy your app to Heroku
 git push heroku master
 
 # Restart app
-heroku restart --app=myfirstbot-v3
+heroku restart --app=myfirstbot
 ```
 
 ### Test prod
@@ -62,5 +62,5 @@ heroku restart --app=myfirstbot-v3
 Perform commands:
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"key1": "value1", "key2": "value2"}' https://myfirstbot-v3.herokuapp.com/0000011111:ABBBBBBBBBBBBBBBBBB3333333330
+curl -X POST -H "Content-Type: application/json" -d '{"key1": "value1", "key2": "value2"}' https://myfirstbot.herokuapp.com/0000011111:ABBBBBBBBBBBBBBBBBB3333333330
 ```
